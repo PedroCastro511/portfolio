@@ -16,7 +16,7 @@ export const projects: Project[] = [
   {
     slug: "mundialito-cesaz",
     company: "Mundialito CESAZ",
-    url: "#",
+    url: "https://mundialitocesaz.vercel.app/",
     logo: logoMundialito,
     logoClassName: "h-20 md:h-24 w-auto max-w-[90%] object-contain",
     languages: ["Vue", "TypeScript", "JavaScript"],

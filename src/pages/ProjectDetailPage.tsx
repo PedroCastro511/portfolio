@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { motion } from "motion/react";
 import { ArrowLeft, ExternalLink } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Footer } from "@/components/portfolio/Footer";
 import { cn } from "@/lib/utils";
@@ -56,18 +55,6 @@ export function ProjectDetailPage() {
               <motion.div
                 {...fadeIn}
                 transition={{ duration: 0.5, delay: 0.1 }}
-                className="flex flex-wrap gap-2 mb-8"
-              >
-                {project.languages.map((lang) => (
-                  <Badge key={lang} variant="outline" className="glass border-border/50">
-                    {lang}
-                  </Badge>
-                ))}
-              </motion.div>
-
-              <motion.div
-                {...fadeIn}
-                transition={{ duration: 0.5, delay: 0.15 }}
                 className="space-y-5 text-muted-foreground leading-relaxed"
               >
                 {project.description.map((paragraph) => (

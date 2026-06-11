@@ -1,5 +1,13 @@
 import { motion } from "motion/react";
-import { Code2, Database, Server, Braces, Layers, Route, Mail } from "lucide-react";
+import {
+  Code2,
+  Database,
+  Server,
+  Braces,
+  Layers,
+  Route,
+  Mail,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CONTACT_EMAIL } from "@/data/contact";
 
@@ -34,18 +42,11 @@ export function About() {
               Sobre mim
             </p>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Olá, sou um <span className="text-gradient">desenvolvedor web</span>.
+              Olá chamo-me <span className="text-gradient">Pedro Castro</span> e
+              sou um programador full stack independente focado em código limpo,
+              arquiteturas sólidas e entregas que funcionam de verdade.
             </h2>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Apaixonado por transformar ideias em produtos digitais reais. Construo
-              interfaces modernas, performantes e com atenção obsessiva ao detalhe —
-              do primeiro pixel à última query.
-            </p>
-            <p className="text-muted-foreground leading-relaxed">
-              Trabalho em todo o stack, mas o front-end é onde sinto mais magia.
-              Gosto de animações fluídas, código limpo e arquiteturas que escalam
-              sem se perder no caminho.
-            </p>
+
             <Button
               asChild
               variant="secondary"
@@ -84,7 +85,10 @@ export function About() {
                         initial={{ opacity: 0, x: -10 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
-                        transition={{ duration: 0.4, delay: gi * 0.1 + i * 0.05 }}
+                        transition={{
+                          duration: 0.4,
+                          delay: gi * 0.1 + i * 0.05,
+                        }}
                         className="flex items-center gap-3 px-4 py-3 rounded-xl bg-secondary/40 border border-border/40 hover:border-primary/60 hover:shadow-glow transition-all"
                       >
                         <lang.icon className="h-4 w-4 text-primary" />

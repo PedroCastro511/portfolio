@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CONTACT_EMAIL } from "@/data/contact";
+import { AboutIntroHeading } from "@/components/portfolio/AboutIntroHeading";
 
 type Category = "Frontend" | "Backend";
 
@@ -41,11 +42,7 @@ export function About() {
             <p className="text-sm text-primary font-medium tracking-widest uppercase mb-3">
               Sobre mim
             </p>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Olá chamo-me <span className="text-gradient">Pedro Castro</span> e
-              sou um programador full stack independente focado em código limpo,
-              arquiteturas sólidas e entregas que funcionam de verdade.
-            </h2>
+            <AboutIntroHeading />
 
             <Button
               asChild

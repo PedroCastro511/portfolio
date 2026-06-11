@@ -19,7 +19,7 @@ export function Hero() {
   return (
     <section id="home" ref={rootRef} className="relative overflow-hidden pt-24 pb-24 px-6 md:pt-32 min-h-[480px] md:min-h-[520px]">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-[90%] md:top-[56%] -translate-y-1/2 right-[-6%] sm:right-[0%] md:right-[4%] lg:right-[10%] w-full max-w-xl h-[320px] md:h-[420px]">
+        <div className="absolute top-[85%] md:top-[56%] -translate-y-1/2 right-[-6%] sm:right-[0%] md:right-[4%] lg:right-[10%] w-full max-w-xl h-[320px] md:h-[420px]">
           <HeroComputer />
         </div>
       </div>

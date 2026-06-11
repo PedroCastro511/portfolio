@@ -51,7 +51,7 @@ export function About() {
               asChild
               variant="secondary"
               size="lg"
-              className="mt-8 shadow-none border border-border/70 bg-neutral-200 text-neutral-800 hover:bg-neutral-300 hover:text-neutral-900"
+              className="mt-8 shadow-none border border-sky-200 bg-sky-100 text-sky-900 hover:bg-sky-200 hover:text-sky-950"
             >
               <a href={`mailto:${CONTACT_EMAIL}`}>
                 <Mail className="h-4 w-4" />
